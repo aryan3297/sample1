@@ -3,3 +3,7 @@ line 2
 line 3
 
 this line exists in master branch
+
+
+New line added for test2 branch... HI
+
