@@ -1,8 +1,11 @@
-line 1
-
-
 line 2
 
 line 3
 
+<<<<<<< HEAD
 adding line 4 in test1 branch
+=======
+this line exists in master branch
+
+HI
+>>>>>>> 0e3f5a795d6373a20f68da6f0d7f3e8b63875d6f
