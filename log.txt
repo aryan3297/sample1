@@ -1,0 +1,289 @@
+[200~
+Pro VC@AUBLT0034 MINGW64 ~
+$ pwd
+/c/Users/Pro VC
+
+Pro VC@AUBLT0034 MINGW64 ~
+$ cd ..
+
+Pro VC@AUBLT0034 MINGW64 /c/Users
+$ cd ..
+
+Pro VC@AUBLT0034 MINGW64 /c
+$ cd D:
+
+Pro VC@AUBLT0034 MINGW64 /d
+$ mkdir clonedfromraj
+
+Pro VC@AUBLT0034 MINGW64 /d
+$ cd clonedfromraj/
+
+Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj
+$ git clone https://github.com/aryan3297/test
+Cloning into 'test'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj
+$ ls
+test/
+
+Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj
+$ cd test
+
+Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test (master)
+$ git log
+commit 172fc956ce04cf7c6d04055ba6a44f01055b5161 (HEAD -> master, origin/master, origin/HEAD)
+Author: aryan3297 <rajatbhardwaj.x@gmail.com>
+Date:   Fri Mar 28 11:35:10 2025 +0530
+
+    i added new line for aub,cse,aiml,mgt
+
+    Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test (master)
+    $ ls
+    test.txt
+
+    Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test (master)
+    $ vi test.txt
+
+    Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test (master)
+    $ git add .
+
+    Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test (master)
+    $ git commit -m "added junk"
+    [master 178f177] added junk
+     1 file changed, 2 insertions(+)
+
+     Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test (master)
+     $ git remote -v
+     origin  https://github.com/aryan3297/test (fetch)
+     origin  https://github.com/aryan3297/test (push)
+
+     Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test (master)
+     $ git push -u origin master
+     remote: Permission to aryan3297/test.git denied to MonitKapoor.
+     fatal: unable to access 'https://github.com/aryan3297/test/': The requested URL returned error: 403
+
+     Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test (master)
+     $ cd ..
+
+     Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj
+     $ ls
+     test/
+
+     Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj
+     $ git clone https://github.com/MonitKapoor/test_r
+     Cloning into 'test_r'...
+     remote: Enumerating objects: 3, done.
+     remote: Counting objects: 100% (3/3), done.
+     remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+     Receiving objects: 100% (3/3), done.
+
+     Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj
+     $ cd test_r
+
+     Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (master)
+     $ vi test.txt
+
+     Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (master)
+     $ git add .
+     g
+     Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (master)
+     $ git commit -m "added text in test"
+     [master 77d2b18] added text in test
+      1 file changed, 1 insertion(+)
+
+      Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (master)
+      $ git remote -v
+      origin  https://github.com/MonitKapoor/test_r (fetch)
+      origin  https://github.com/MonitKapoor/test_r (push)
+
+      Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (master)
+      $ git push -u origin master
+      Enumerating objects: 5, done.
+      Counting objects: 100% (5/5), done.
+      Delta compression using up to 12 threads
+      Compressing objects: 100% (2/2), done.
+      Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+      Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+      To https://github.com/MonitKapoor/test_r
+         172fc95..77d2b18  master -> master
+	 branch 'master' set up to track 'origin/master'.
+
+	 Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (master)
+	 $ git branch dev1_bug
+
+	 Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (master)
+	 $ git checkout dev1_bug
+	 Switched to branch 'dev1_bug'
+
+	 Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (dev1_bug)
+	 $ vi test.txt
+
+	 Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (dev1_bug)
+	 $ git remote -v
+	 origin  https://github.com/MonitKapoor/test_r (fetch)
+	 origin  https://github.com/MonitKapoor/test_r (push)
+
+	 Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (dev1_bug)
+	 $ git add .
+	 g
+	 Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (dev1_bug)
+	 $ git commit -m "added debig code from new branch"
+	 [dev1_bug 2090094] added debig code from new branch
+	  1 file changed, 2 insertions(+), 1 deletion(-)
+
+	  Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (dev1_bug)
+	  $ git status
+	  On branch dev1_bug
+	  nothing to commit, working tree clean
+
+	  Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (dev1_bug)
+	  $ git push -u origin dev1_bug
+	  Enumerating objects: 5, done.
+	  Counting objects: 100% (5/5), done.
+	  Delta compression using up to 12 threads
+	  Compressing objects: 100% (2/2), done.
+	  Writing objects: 100% (3/3), 347 bytes | 347.00 KiB/s, done.
+	  Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+	  remote:
+	  remote: Create a pull request for 'dev1_bug' on GitHub by visiting:
+	  remote:      https://github.com/MonitKapoor/test_r/pull/new/dev1_bug
+	  remote:
+	  To https://github.com/MonitKapoor/test_r
+	   * [new branch]      dev1_bug -> dev1_bug
+	   branch 'dev1_bug' set up to track 'origin/dev1_bug'.
+
+	   Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/test_r (dev1_bug)
+	   $ cd ..
+
+	   Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj
+	   $ git clone https://github.com/MonitKapoor/sample1
+	   Cloning into 'sample1'...
+	   remote: Enumerating objects: 44, done.
+	   remote: Counting objects: 100% (44/44), done.
+	   remote: Compressing objects: 100% (37/37), done.
+	   remote: Total 44 (delta 7), reused 32 (delta 1), pack-reused 0 (from 0)
+	   Receiving objects: 100% (44/44), 22.74 KiB | 5.68 MiB/s, done.
+	   Resolving deltas: 100% (7/7), done.
+
+	   Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj
+	   $ git branch
+	   fatal: not a git repository (or any of the parent directories): .git
+
+	   Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj
+	   $ cd sample1/
+
+	   Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (master)
+	   $ git branch
+	   * master
+
+	   Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (master)
+	   $ git branch --a
+	   error: ambiguous option: a (could be --abbrev or --all)
+	   usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+	      or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+	         or: git branch [<options>] [-l] [<pattern>...]
+		    or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+		       or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+		          or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+			     or: git branch [<options>] [-r | -a] [--points-at]
+			        or: git branch [<options>] [-r | -a] [--format]
+
+				Generic options
+				    -v, --[no-]verbose    show hash and subject, give twice for upstream branch
+				        -q, --[no-]quiet      suppress informational messages
+					    -t, --[no-]track[=(direct|inherit)]
+					                              set branch tracking configuration
+								          -u, --[no-]set-upstream-to <upstream>
+									                            change the upstream info
+												        --[no-]unset-upstream unset the upstream info
+													    --[no-]color[=<when>] use colored output
+													        -r, --remotes         act on remote-tracking branches
+														    --contains <commit>   print only branches that contain the commit
+														        --no-contains <commit>
+															                          print only branches that don't contain the commit
+																		      --[no-]abbrev[=<n>]   use <n> digits to display object names
+
+																		      Specific git-branch actions:
+																		          -a, --all             list both remote-tracking and local branches
+																			      -d, --[no-]delete     delete fully merged branch
+																			          -D                    delete branch (even if not merged)
+																				      -m, --[no-]move       move/rename a branch and its reflog
+																				          -M                    move/rename a branch, even if target exists
+																					      --[no-]omit-empty     do not output a newline after empty formatted refs
+																					          -c, --[no-]copy       copy a branch and its reflog
+																						      -C                    copy a branch, even if target exists
+																						          -l, --[no-]list       list branch names
+																							      --[no-]show-current   show current branch name
+																							          --[no-]create-reflog  create the branch's reflog
+																								      --[no-]edit-description
+																								                                edit the description for the branch
+																												    -f, --[no-]force      force creation, move/rename, deletion
+																												        --merged <commit>     print only branches that are merged
+																													    --no-merged <commit>  print only branches that are not merged
+																													        --[no-]column[=<style>]
+																														                          list branches in columns
+																																	      --[no-]sort <key>     field name to sort on
+																																	          --[no-]points-at <object>
+																																		                            print only branches of the object
+																																					        -i, --[no-]ignore-case
+																																						                          sorting and filtering are case insensitive
+																																									      --[no-]recurse-submodules
+																																									                                recurse through submodules
+																																													    --[no-]format <format>
+																																													                              format to use for the output
+
+
+																																																      Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (master)
+																																																      $ git branch -a
+																																																      * master
+																																																        remotes/origin/HEAD -> origin/master
+																																																	  remotes/origin/master
+																																																	    remotes/origin/test1
+																																																	      remotes/origin/test2
+
+																																																	      Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (master)
+																																																	      $ git checkiut test1
+																																																	      git: 'checkiut' is not a git command. See 'git --help'.
+
+																																																	      The most similar command is
+																																																	              checkout
+
+																																																		      Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (master)
+																																																		      $ git checkout test1
+																																																		      branch 'test1' set up to track 'origin/test1'.
+																																																		      Switched to a new branch 'test1'
+
+																																																		      Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (test1)
+																																																		      $ ls
+																																																		      hello.txt  try.c
+
+																																																		      Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (test1)
+																																																		      $ vi try.c
+
+																																																		      Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (test1)
+																																																		      $ git add .
+
+																																																		      Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (test1)
+																																																		      $ git commit -m "c234"
+																																																		      [test1 7b573bb] c234
+																																																		       1 file changed, 1 insertion(+), 1 deletion(-)
+
+																																																		       Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (test1)
+																																																		       $ git push -u origin test1
+																																																		       Enumerating objects: 5, done.
+																																																		       Counting objects: 100% (5/5), done.
+																																																		       Delta compression using up to 12 threads
+																																																		       Compressing objects: 100% (3/3), done.
+																																																		       Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+																																																		       Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+																																																		       remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+																																																		       To https://github.com/MonitKapoor/sample1
+																																																		          00f8af2..7b573bb  test1 -> test1
+																																																			  branch 'test1' set up to track 'origin/test1'.
+
+																																																			  Pro VC@AUBLT0034 MINGW64 /d/clonedfromraj/sample1 (test1)
+
