@@ -2,6 +2,7 @@ line 2
 
 line 3
 
+<<<<<<< HEAD
 
 adding line 4 in test1 branch
 
@@ -12,3 +13,11 @@ HI
 
 added new AUB line on 25 march
 
+=======
+
+adding line 4 in test1 branch
+added new AUB line on 25 march
+this line exists in master branch
+
+HI
+>>>>>>> 8771915ed337b10dc7451decd8cb71e143cb747b
